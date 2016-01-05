@@ -1,0 +1,24 @@
+{
+  "name": "BlinkingLabel",
+  "version": "0.1.0",
+  "summary": "My First CocoaPods",
+  "homepage": "https://github.com/BasantAshraf/BlinkingLabel",
+  "license": "MIT",
+  "authors": {
+    "Basant Ashraf": "bassant.ashraf@ibtikar.net.sa"
+  },
+  "source": {
+    "git": "https://github.com/BasantAshraf/BlinkingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "BlinkingLabel": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
